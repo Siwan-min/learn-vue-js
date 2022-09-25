@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app"></div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        // body 태그 안에 app 이라고 하는 태그를 찾아 인스턴스를 붙이겠다
+        // vue 의 기능과 속성이 유효해짐
+        
+        // 자바스크립트에서 함수를 이용하여 인스턴스를 생성하는 방법은 생성자 함수 이용하는 것이다.
+        // tip!! function Person() 함수 앞의 첫 글자가 대문자면 생성자 함수라는 것을 의미
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                message: 'hi'
+            }
+        });
+    </script>
+</body>
+</html>
