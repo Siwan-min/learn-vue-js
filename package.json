@@ -1,0 +1,19 @@
+{
+  "name": "learn-vue-js-master",
+  "version": "1.0.0",
+  "description": "[Vue.js 시작하기 인프런 강의](https://www.inflearn.com/course/Age-of-Vuejs) 리포지토리입니다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siwan-min/learn-vue-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Siwan-min/learn-vue-js/issues"
+  },
+  "homepage": "https://github.com/Siwan-min/learn-vue-js#readme"
+}

@@ -1,0 +1,9 @@
+1. vue 2.x vs vue 3.x
+    (1) vue cli 2.x 
+        - vue init '프로젝트 템플릿 유형' '프로젝트 폴더 위치'
+        >> vue init 'webpack-simple' '프로젝트 폴더 위치'
+
+    (2) vue cli 3.x
+        - vue create '프로젝트 폴더 위치' 
+        >> vue create vue-cli
+        - 플러그인 기반의 차이가 있어 프로젝트 템플릿 유형이 사라짐
